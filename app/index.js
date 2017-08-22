@@ -60,32 +60,32 @@ import ReactDOM from 'react-dom'
 // MyComponent.defaultProps = {
 // 				todo: {},
 // 				name: ''
+// // }
+
+// const imgUrl = '';
+// const divStyle = {
+//   color: 'red',
+//   backgroundImage: 'url(' + imgUrl + ')'
+// };
+
+// ReactDOM.render(
+// 	<div style={divStyle}>Hello World!</div>, document.getElementById('app'));
+				
+// // const 為常數
+// const lists = ['JavaScript', 'Java', 'Node', 'Python'];
+
+// class HelloMessage extends React.Component {
+// 	render() {
+// 		return (
+// 			<ul>
+// 				{lists.map((result, index) => {
+// 					return (
+// 						<li key={index}>{result}</li>
+// 					);
+// 				})}
+// 			</ul>
+// 		)
+// 	}
 // }
 
-const imgUrl = '';
-const divStyle = {
-  color: 'red',
-  backgroundImage: 'url(' + imgUrl + ')'
-};
-
-ReactDOM.render(
-	<div style={divStyle}>Hello World!</div>, document.getElementById('app'));
-				
-// const 為常數
-const lists = ['JavaScript', 'Java', 'Node', 'Python'];
-
-class HelloMessage extends React.Component {
-	render() {
-		return (
-			<ul>
-				{lists.map((result, index) => {
-					return (
-						<li key={index}>{result}</li>
-					);
-				})}
-			</ul>
-		)
-	}
-}
-
-ReactDOM.render(<HelloMessage/>, document.getElementById('list'));
+// ReactDOM.render(<HelloMessage/>, document.getElementById('list'));
