@@ -70,3 +70,22 @@ const divStyle = {
 
 ReactDOM.render(
 	<div style={divStyle}>Hello World!</div>, document.getElementById('app'));
+				
+// const 為常數
+const lists = ['JavaScript', 'Java', 'Node', 'Python'];
+
+class HelloMessage extends React.Component {
+	render() {
+		return (
+			<ul>
+				{lists.map((result, index) => {
+					return (
+						<li key={index}>{result}</li>
+					);
+				})}
+			</ul>
+		)
+	}
+}
+
+ReactDOM.render(<HelloMessage/>, document.getElementById('list'));
